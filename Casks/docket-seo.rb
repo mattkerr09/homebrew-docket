@@ -1,9 +1,9 @@
 cask "docket-seo" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.3.153"
-  sha256 arm:   "ad234c6058f0692f22d8f5cfd3b71b49a792f05e65f22e7cd0ec1e26be6ea6b5",
-         intel: "6ff70681387bd732147db21a29a996e78c57452b7fec711aa3ae4b35c49548ea"
+  version "1.3.154"
+  sha256 arm:   "65a3abbb3747ef8fba7c44cfd5cb71ce9655ae9cc71e9b25fc26ca62a4584839",
+         intel: "632dbc842e4e9c4b820a1e5911791f81dfa1009a9abae4644e7448024aa07f60"
 
   url "https://github.com/mattkerr09/docket-site/releases/download/v#{version}/Docket-#{version}-#{arch}.dmg",
       verified: "github.com/mattkerr09/docket-site/"
