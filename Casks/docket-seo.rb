@@ -1,11 +1,11 @@
 cask "docket-seo" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.3.166"
-  sha256 arm:   "fa9e779591ef49eb1c13f469ecd093ec4c3446e4ec0ad2670f474ef6c49131dc",
-         intel: "284184302eb7a56ef712f4b583a9e1309cd328d0fb7c0b6f85df6b5b9e4a48b6"
+  version "1.3.167"
+  sha256 arm:   "95bb4df884e4a23236b7c04282b926cdfcf359fe6e7c3f963065e6d10c28e5fd",
+         intel: "1214ff7509fcc1487c25a2f0bd8d7dee6ba1557e847ca6c3ce94c4583776ea97"
 
-  url "https://github.com/mattkerr09/docket-site/releases/download/v#{version}/Docket-#{version}-#{arch}.dmg",
+  url "https://github.com/mattkerr09/docket-site/releases/download/v#{version}/Check-Engine-SEO-#{version}-#{arch}.dmg",
       verified: "github.com/mattkerr09/docket-site/"
   name "Check Engine SEO"
   desc "Website SEO audit app that runs on your own computer"
@@ -21,7 +21,7 @@ cask "docket-seo" do
   auto_updates true
   depends_on macos: :monterey
 
-  app "Docket.app"
+  app "Check Engine SEO.app"
 
   uninstall launchctl: "app.docket.watchdog"
 
