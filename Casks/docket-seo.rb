@@ -1,9 +1,9 @@
 cask "docket-seo" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.3.167"
-  sha256 arm:   "95bb4df884e4a23236b7c04282b926cdfcf359fe6e7c3f963065e6d10c28e5fd",
-         intel: "1214ff7509fcc1487c25a2f0bd8d7dee6ba1557e847ca6c3ce94c4583776ea97"
+  version "1.3.169"
+  sha256 arm:   "75053351c5a42a008eb66d4e9ad4343b4d1f5843954781856698e9d4ac08cc58",
+         intel: "ea7a2e8852b2ebc92fa882b60823b9e2511ba6fdc1fa54aa49e8ad073ba4e81e"
 
   url "https://github.com/mattkerr09/docket-site/releases/download/v#{version}/Check-Engine-SEO-#{version}-#{arch}.dmg",
       verified: "github.com/mattkerr09/docket-site/"
